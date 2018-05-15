@@ -1,0 +1,42 @@
+page {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+.splash {
+  height: 100%;
+}
+
+.splash swiper-item {
+  flex: 1;
+}
+
+.splash swiper-item image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+.splash swiper-item div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #fff, #000);
+  opacity: 0.2;
+}
+
+.start {
+  position: absolute;
+  bottom: 100rpx;
+  left: 50%;
+  width: 400rpx;
+  margin-left: -200rpx;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #ea6f5a;
+  border: 1rpx solid #ea6f5a;
+  border-radius: 200rpx;
+  font-size: 40rpx;
+}

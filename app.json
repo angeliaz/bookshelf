@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/board/board",
+    "pages/list/list",
+    "pages/item/item",
+    "pages/search/search",
+    "pages/profile/profile",
+    "pages/finance/finance"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ea6f5a",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "喵喵的书房",
+    "navigationStyle": "default",
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ea6f5a",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "Movie",
+        "pagePath": "pages/board/board",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "Finance",
+        "pagePath": "pages/finance/finance",
+        "iconPath": "images/$.png",
+        "selectedIconPath": "images/$.png"
+      },
+      {
+        "text": "Book",
+        "pagePath": "pages/search/search",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book.png"
+      },
+      {
+        "text": "Search",
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-actived.png"
+      },
+      {
+        "text": "Me",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
