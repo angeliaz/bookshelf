@@ -24,16 +24,16 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "text": "Movie",
-        "pagePath": "pages/board/board",
-        "iconPath": "images/board.png",
-        "selectedIconPath": "images/board-actived.png"
-      },
-      {
         "text": "Finance",
         "pagePath": "pages/finance/finance",
         "iconPath": "images/$.png",
         "selectedIconPath": "images/$.png"
+      },
+      {
+        "text": "Movie",
+        "pagePath": "pages/board/board",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
       },
       {
         "text": "Book",

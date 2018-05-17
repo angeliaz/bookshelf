@@ -9,6 +9,20 @@
     <text hidden="{{ !userInfo.city }}">{{ userInfo.city }}, {{ userInfo.province }}</text>
     <text hidden="{{ !userInfo.city }}"> Thanks~ </text>
   </view>
+  <view class="stock-index">
+    <text>股指</text>
+  </view>
+  <view class="stock-index">
+    <text>个股数据</text>
+    <text>PB PE PS 股息 营收 净利</text>
+    <text>日K 周K</text>
+  </view>
+  <view class="stock-index">
+    <text>宏观指标监控</text>
+  </view>
+  <view class="stock-index">
+    <text>研报</text>
+  </view>
 </view>
 
 

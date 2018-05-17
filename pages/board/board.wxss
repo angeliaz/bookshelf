@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  font-size: 20rpx;
+  font-size: 30rpx;
   margin: 40rpx 0;
   padding: 20rpx;
   background-color: #fff;
@@ -38,13 +38,13 @@
 }
 
 .board-item .content {
-  height: 300rpx;
+  height: 320rpx;
 }
 
 .board-item .content .inner {
   display: flex;
   flex-direction: row;
-  height: 300rpx;
+  height: 100%;
   width: 900rpx;
 }
 
@@ -65,4 +65,5 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 2;
 }

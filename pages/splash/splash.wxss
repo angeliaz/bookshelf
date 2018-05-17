@@ -38,5 +38,5 @@ page {
   color: #ea6f5a;
   border: 1rpx solid #ea6f5a;
   border-radius: 200rpx;
-  font-size: 40rpx;
+  font-size: 50rpx;
 }

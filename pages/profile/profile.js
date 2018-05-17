@@ -10,7 +10,7 @@ Page({
     title: "About",
     userInfo: {
       wechat: "WEDN-NET",
-      nickName: "https://github.com/zce/weapp-douban",
+      nickName: "https://github.com/angeliaz/bookshelf",
       avatarUrl: "../../images/angelia.jpg"
     }
   },

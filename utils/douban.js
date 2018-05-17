@@ -14,7 +14,7 @@ function fetchApi (type, params) {
 
 /**
  * 获取列表类型的数据
- * @param  {String} type   类型，例如：'coming_soon'
+ * @param  {String} type   类型，例如：'in_theaters'
  * @param  {Number} page   页码
  * @param  {Number} count  页条数
  * @param  {String} search 搜索关键词

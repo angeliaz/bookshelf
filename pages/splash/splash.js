@@ -29,10 +29,7 @@ Page({
   },
 
   handleStart () {
-    // TODO: 访问历史的问题
-    wx.switchTab({
-      url: '../board/board'
-    })
+    wx.switchTab({ url: "../finance/finance" });
   },
 
   /**
@@ -41,14 +38,15 @@ Page({
   onLoad () {
     this.getCache()
       .then(cache => {
-        const index = Math.floor(Math.random() * 4);
+        const index = Math.floor(Math.random() * 3);
         console.log(index)
         if (cache) {
           console.log(index)
           return this.setData({ movies: cache.movie.slice(index, index + 1), loading: false })
         }
 
-        app.douban.find('coming_soon', 1, 5)
+        app.douban
+          .find("in_theaters", 1, 3)
           .then(d => {
             const movies = d.subjects;
             this.setData({
@@ -57,10 +55,10 @@ Page({
             });
             return app.wechat.setStorage("last_splash_data", {
               movies: movies,
-              expires: Date.now() + 1 * 24 * 60 * 60 * 1000
+              expires: Date.now() + 0.5 * 24 * 60 * 60 * 1000
             });
           })
-          .then(() => console.log('storage last splash data'))
+          .then(() => console.log("storage last splash data"));
       })
   },
 
